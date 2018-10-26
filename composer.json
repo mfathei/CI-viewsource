@@ -8,5 +8,14 @@
             "email": "oracle.dev10g@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
 }
