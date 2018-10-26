@@ -1,0 +1,12 @@
+{
+    "name": "mahdy/vsci",
+    "description": "Continuous integration app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Mahdy",
+            "email": "oracle.dev10g@gmail.com"
+        }
+    ],
+    "require": {}
+}
