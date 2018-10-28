@@ -13,6 +13,6 @@ class ValidatePasswordTest extends TestCase
     public function testValidLength()
     {
         $validPass = new ValidatePassword();
-        $this->assertFalse($validPass->validLength('1234'));
+        $this->assertFalse($validPass->validLength('123456'));// updated to test jenkins automation
     }
 }
